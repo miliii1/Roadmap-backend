@@ -10,5 +10,4 @@ except ValueError:
     print ("No es un número válido.")
 except Exception as e:
     print("Ocurrió un error inesperado:", e)
-except KeyboardInterrupt:
-    print("\nSe canceló la entrada.")
+

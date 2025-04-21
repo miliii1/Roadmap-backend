@@ -1,0 +1,6 @@
+Nombre: Juan  |  Edad: 20  |  Resultado: Access valid! :)
+
+Nombre: Leo  |  Edad: 24  |  Resultado: Access valid! :)
+Nombre: Pedro  |  Edad: 12  |  Resultado: Access denied. You age underage.
+Nombre: Mateo  |  Edad: 21  |  Resultado: Access valid! :) |  Date: 2025-04-21 15:03:05
+Nombre: Jazmin  |  Edad: 12  |  Resultado: Access denied. You age underage. |  Date: 2025-04-21 15:03:34
