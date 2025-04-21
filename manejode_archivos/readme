@@ -1,0 +1,32 @@
+# MANEJO DE ERRORES: Excepciones en Python
+"""
+Las excepciones en Python son una herramienta muy potente que la gran mayoría de lenguajes de programación modernos tienen. Se trata de una forma de controlar 
+el comportamiento de un programa cuando se produce un error.
+
+"""
+try:
+    c = 5/0       # Si comentas esto entra en TypeError
+    #d = 2 + "Hola" # Si comentas esto entra en ZeroDivisionError
+except (ZeroDivisionError, TypeError):
+    print("Excepcion ZeroDivisionError/TypeError")
+
+
+#Otra forma si no sabes que excepción puede saltar, puedes usar la clase genérica Exception. En este caso se controla cualquier tipo de excepción. De hecho todas las excepciones heredan de Exception. Ver documentación.
+
+try:
+    #c = 5/0       # Si comentas esto entra en TypeError
+    d = 2 + "Hola" # Si comentas esto entra en ZeroDivisionError
+except Exception:
+    print("Ha habido una excepción")
+
+
+try:
+    # Se fuerza excepción
+    x = 2/0
+except:
+    print("Entra en except, ha ocurrido una excepción")
+else:
+    print("Entra en el else, no ha ocurrido ninguna excepción")
+finally:
+    print("Entra en finally, se ejecuta el bloque finally")
+
